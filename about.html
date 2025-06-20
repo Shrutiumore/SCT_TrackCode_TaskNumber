@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>About Us</title>
+  <link rel="stylesheet" href="newcss.css" />
+  <style>
+    .about-container {
+      max-width: 1000px;
+      margin: 40px auto;
+      padding: 20px;
+    }
+
+    .about-section {
+      margin-bottom: 40px;
+    }
+
+    .about-section h2 {
+      font-size: 2em;
+      margin-bottom: 15px;
+      color: #333;
+    }
+
+    .about-section p {
+      font-size: 1.1em;
+      line-height: 1.8;
+      color: #555;
+    }
+
+    .team-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 30px;
+    }
+
+    .team-member {
+      background-color: #f4f4f4;
+      border-radius: 10px;
+      text-align: center;
+      padding: 20px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+      transition: transform 0.3s ease;
+    }
+
+    .team-member:hover {
+      transform: translateY(-5px);
+    }
+
+    .team-member img {
+      width: 100px;
+      height: 100px;
+      object-fit: cover;
+      border-radius: 50%;
+      margin-bottom: 15px;
+    }
+
+    .team-member h3 {
+      margin-bottom: 5px;
+      font-size: 1.2em;
+    }
+
+    .team-member p {
+      font-size: 0.95em;
+      color: #777;
+    }
+  </style>
+</head>
+<body>
+  <nav class="navbar" id="navbar">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <div class="content">
+    <div class="about-container">
+
+      <section class="about-section">
+        <h2>Our Mission</h2>
+        <p>
+          At Shruu Corp, we are dedicated to delivering innovative digital solutions that drive success and create lasting impact. With a passion for creativity and technology, we help businesses achieve their goals through design, development, and strategy.
+        </p>
+      </section>
+
+      <section class="about-section">
+        <h2>Meet the Team</h2>
+        <div class="team-grid">
+          <div class="team-member">
+            <img src="https://via.placeholder.com/100" alt="Team Member">
+            <h3>Shruti More</h3>
+            <p>CEO & Co-Founder</p>
+          </div>
+          <div class="team-member">
+            <img src="https://via.placeholder.com/100" alt="Team Member">
+            <h3>Swara More</h3>
+            <p>CTO & Lead Developer</p>
+          </div>
+          <div class="team-member">
+            <img src="https://via.placeholder.com/100" alt="Team Member">
+            <h3>Samadhan Patil</h3>
+            <p>Head of Design</p>
+          </div>
+          <div class="team-member">
+            <img src="https://via.placeholder.com/100" alt="Team Member">
+            <h3>Mike Johnson</h3>
+            <p>Marketing Manager</p>
+          </div>
+        </div>
+      </section>
+
+    </div>
+  </div>
+
+  <script src="newjavascript.js"></script>
+</body>
+</html>
